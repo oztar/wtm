@@ -1,4 +1,5 @@
 'use strict'
+//version 0.1
 let interval;
 
 const load = function(socketID){
