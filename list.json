@@ -1,6 +1,7 @@
 {
     "test" : {
-	"lasted" : "0.1",
-	"0.1" : "test-0.1.js"
+	"lasted" : "0.2",
+	"0.1" : { "file" : "test-0.1.js", "md5" : "46de1b051f102328b0149c0afceb5ac9"},
+	"0.2" : { "file" : "test-0.2.js", "md5" : "fb643b1215ffdd2c5bdcc8067f503a21"}
     }
 }
