@@ -7,14 +7,14 @@
     },
     "web" : {
 	"lasted" : "0.1",
-	"0.1" : { "file" : "web-0.1.js", "md5" : "a8d19cedb9c288fefdfc8d1f34c0e7f2"}
+	"0.1" : { "file" : "web-0.1.js", "md5" : "8c28056f59ddc44ee80c4e6ebb04fb80"}
     },
     "wtee" : {
 	"lasted" : "0.1",
-	"0.1" : { "file" : "wtee-0.1.js", "md5" : "b7b12bfacad957f8afc15236fa05d827"}
+	"0.1" : { "file" : "wtee-0.1.js", "md5" : "e5f710061a850e1a0e56fd7e3d5485a8"}
     },
     "fs" : {
 	"lasted" : "0.1",
-	"0.1" : { "file" : "fs-0.1.js", "md5" : "b0464d36dd9dac09d47c62f3a6a740e2"}
+	"0.1" : { "file" : "fs-0.1.js", "md5" : "f8ca55f255451538206134ef55b3bbb6"}
     }
 }
