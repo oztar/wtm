@@ -4,5 +4,17 @@
 	"0.0" : { "file" : "test-0.0.js", "md5" : "46de1b051f102328b0149c0afceb5a__"},
 	"0.1" : { "file" : "test-0.1.js", "md5" : "46de1b051f102328b0149c0afceb5ac9"},
 	"0.2" : { "file" : "test-0.2.js", "md5" : "fb643b1215ffdd2c5bdcc8067f503a21"}
+    },
+    "web" : {
+	"lasted" : "0.1",
+	"0.1" : { "file" : "web-0.1.js", "md5" : "a8d19cedb9c288fefdfc8d1f34c0e7f2"}
+    },
+    "wtee" : {
+	"lasted" : "0.1",
+	"0.1" : { "file" : "wtee-0.1.js", "md5" : "b7b12bfacad957f8afc15236fa05d827"}
+    },
+    "fs" : {
+	"lasted" : "0.1",
+	"0.1" : { "file" : "fs-0.1.js", "md5" : "b0464d36dd9dac09d47c62f3a6a740e2"}
     }
 }
