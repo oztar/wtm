@@ -2,13 +2,24 @@
 
 const u = require('util').format;
 
-const nameCon = {
+const pkg = {
+    author      : 'Alfredo Román',
+    license     : 'ISC',
+    version     : '0.1',
+    compatible  : '0.3.5',
+    description : 'Module list router stack'
+};
+
+const webCon = {
     version : '0.1',
     description : 'Express List Webs',
-    usage : 'web [type] [filter]',
+    usage : 'web <type> <filter>',
     auto  : null//['option1','option2']  //or null
 }
-
+webCon.usage += '\r\n\tExample:';
+webCon.usage += '\r\n\t\tweb';
+webCon.usage += '\r\n\t\tweb name query';
+webCon.usage += '\r\n\t\tweb name html';
 
 const web = function(socketID,args){
     try{
@@ -23,18 +34,10 @@ const web = function(socketID,args){
    }
 }
 
-/*
-  the modules not need commands
-  you use other events, and other code. 
-    
-  autoload is true you using Load and Unload for module. 
-  const load = function(socketID){}
-  const unload = function(socketID){}
-*/
-
 module.exports = {
+    pkg,
     command : {
-	web : nameCon
+	web : webCon
     },
     web,
     autoload : false

@@ -2,6 +2,14 @@
 
 const u = require('util').format;
 
+const pkg = {
+    author      : 'Alfredo Román',
+    license     : 'ISC',
+    version     : '0.1',
+    compatible  : '0.3.5',
+    description : 'Module for EventEmitter gestion, and emit manual. '
+};
+
 const errors = {
     CLIENT : 'The "%s" id not connected or disconected',
     EVENT  : 'this "%s" event is necesary exist'
@@ -9,15 +17,14 @@ const errors = {
 
 const ieeCon = {
     version : '0.1',
-    description : 'iee Terminal Event Emiter',
-    usage : 'iee [type] [filter]',
+    description : 'iee List event Evemitters on listen',
+    usage : 'iee',
     auto  : null//['option1','option2']  //or null
 }
 
-
 const iee = function(socketID,args){
     try{
-	let who = 'Web Terminal:\r\n';
+	let who = 'Internal Event Emitter:\r\n';
 	for( let eve in this._events){
 	    who += '\t'+eve+'\r\n';
 	}
@@ -33,6 +40,8 @@ const sendeeCon = {
     usage : 'sendee [nameEvent] [arguments]',
     auto  : null//['option1','option2']  //or null
 }
+sendeeCon.usage += '\r\n\tExample:';
+sendeeCon.usage += '\r\n\t\tsendee save:config {wtee:true}';
 
 const sendee = function(socketID,args){
     if( this._events[ args[1] ] === undefined){  this.emit(socketID+'err',u(errors['EVENT'],args[1])); return;}
@@ -52,7 +61,7 @@ const sendee = function(socketID,args){
 
 const whoamiCon = {
     version : '0.1',
-    description : 'whoami. ',
+    description : 'whoami. Information websocket',
     usage : 'whoami',
     auto : null
 }
@@ -86,6 +95,10 @@ const ttyCon = {
     auto : null
 }
 
+ttyCon.usage += '\r\n\tExample:';
+ttyCon.usage += '\r\n\t\tty xcojnwojns Hello Every One';
+
+
 const tty = function(socketID,args){
     if( args[1] === undefined){ this.emit(socketID+'err','need id other user'); return;}
     if( args[2] === undefined){ this.emit(socketID+'err','msg not empty'); return;}
@@ -99,6 +112,7 @@ const tty = function(socketID,args){
 }
 
 module.exports = {
+    pkg,
     command : {
 	iee : ieeCon,
 	whoami : whoamiCon,

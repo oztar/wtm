@@ -2,6 +2,14 @@
 //version 0.1
 let interval;
 
+const pkg = {
+    author      : 'Alfredo Román',
+    license     : 'ISC',
+    version     : '0.1',
+    compatible  : '0.3.5',
+    description : 'Module for test automatic interval'
+};
+
 const load = function(socketID){
     this.emit(socketID,'Initial Test');
     interval = setInterval( ()=>{
@@ -18,6 +26,7 @@ const unload = function(socketID){
     }
 }
 module.exports = {
+    pkg,
     command : {},
     load,
     unload,
