@@ -1,34 +1,32 @@
 {
   "memo": {
-    "author": "Alfredo Rom�n",
-    "license": "ISC",
     "version": "0.1",
-    "compatible": "0.3.5",
-    "description": "Module for control internal memory or Objects",
     "0.1": {
       "file": "memo-0.1.js",
       "md5": "603a8f2e7ec3874d57f2ccd0b4e3953c",
       "compatible": "0.3.5"
-    }
-  },
-  "fs": {
+    },
     "author": "Alfredo Rom�n",
     "license": "ISC",
-    "version": "0.1",
     "compatible": "0.3.5",
-    "description": "Module for fs gestion",
+    "description": "Module for control internal memory or Objects",
+    "lasted": "0.1"
+  },
+  "fs": {
+    "version": "0.1",
     "0.1": {
       "file": "wtm_fs-0.1.js",
       "md5": "bc2a367c15683a35367c421a0025bbea",
       "compatible": "0.3.5"
-    }
-  },
-  "test": {
+    },
     "author": "Alfredo Rom�n",
     "license": "ISC",
-    "version": "0.2",
     "compatible": "0.3.5",
-    "description": "Module for test automatic interval",
+    "description": "Module for fs gestion",
+    "lasted": "0.1"
+  },
+  "test": {
+    "version": "0.2",
     "0.0": {
       "file": "wtm_test-0.0.js",
       "md5": "e5674d27f972d2532baa22e18f539e37",
@@ -39,6 +37,11 @@
       "md5": "a630347b233ffa8c788d37d0316a416c",
       "compatible": "0.3.5"
     },
+    "author": "Alfredo Rom�n",
+    "license": "ISC",
+    "compatible": "0.3.5",
+    "description": "Module for test automatic interval",
+    "lasted": "0.2",
     "0.2": {
       "file": "wtm_test-0.2.js",
       "md5": "41fed522b332dc147c91e34b1cce1dcd",
@@ -46,28 +49,30 @@
     }
   },
   "web": {
-    "author": "Alfredo Rom�n",
-    "license": "ISC",
     "version": "0.1",
-    "compatible": "0.3.5",
-    "description": "Module list router stack",
     "0.1": {
       "file": "wtm_web-0.1.js",
       "md5": "a6591d357af0f6d9cfb8ffc16333fe62",
       "compatible": "0.3.5"
-    }
-  },
-  "wtee": {
+    },
     "author": "Alfredo Rom�n",
     "license": "ISC",
-    "version": "0.2",
     "compatible": "0.3.5",
-    "description": "Module for EventEmitter simple gestion.",
+    "description": "Module list router stack",
+    "lasted": "0.1"
+  },
+  "wtee": {
+    "version": "0.2",
     "0.1": {
       "file": "wtm_wtee-0.1.js",
       "md5": "369e6b396068a7cc65011391c876b292",
       "compatible": "0.3.5"
     },
+    "author": "Alfredo Rom�n",
+    "license": "ISC",
+    "compatible": "0.3.5",
+    "description": "Module for EventEmitter simple gestion.",
+    "lasted": "0.2",
     "0.2": {
       "file": "wtm_wtee-0.2.js",
       "md5": "1077532ec74343ff98c83cde5313a22c",
