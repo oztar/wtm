@@ -1,50 +1,50 @@
 {
-  "memo": {
-    "version": "0.1",
-    "0.1": {
-      "file": "memo-0.1.js",
-      "md5": "603a8f2e7ec3874d57f2ccd0b4e3953c",
-      "compatible": "0.3.5"
-    },
-    "author": "Alfredo Rom�n",
-    "license": "ISC",
-    "compatible": "0.3.5",
-    "description": "Module for control internal memory or Objects",
-    "lasted": "0.1"
-  },
   "fs": {
     "version": "0.1",
     "0.1": {
       "file": "wtm_fs-0.1.js",
-      "md5": "bc2a367c15683a35367c421a0025bbea",
+      "md5": "b535df9a3acd516bb83f75a22c9ef92d",
       "compatible": "0.3.5"
     },
-    "author": "Alfredo Rom�n",
+    "author": "Alfredo Roman",
     "license": "ISC",
     "compatible": "0.3.5",
     "description": "Module for fs gestion",
+    "lasted": "0.1"
+  },
+  "memo": {
+    "version": "0.1",
+    "0.1": {
+      "file": "wtm_memo-0.1.js",
+      "md5": "da9a66a1e5eb0e7821b6fd39760643e3",
+      "compatible": "0.3.5"
+    },
+    "author": "Alfredo Roman",
+    "license": "ISC",
+    "compatible": "0.3.5",
+    "description": "Module for control internal memory or Objects",
     "lasted": "0.1"
   },
   "test": {
     "version": "0.2",
     "0.0": {
       "file": "wtm_test-0.0.js",
-      "md5": "e5674d27f972d2532baa22e18f539e37",
+      "md5": "57d4a8a95e0029deb392da4c2e185438",
       "compatible": "0.3.5"
     },
     "0.1": {
       "file": "wtm_test-0.1.js",
-      "md5": "a630347b233ffa8c788d37d0316a416c",
+      "md5": "83ad08f8cce9fdb06985049016d25243",
       "compatible": "0.3.5"
     },
-    "author": "Alfredo Rom�n",
+    "author": "Alfredo Roman",
     "license": "ISC",
     "compatible": "0.3.5",
     "description": "Module for test automatic interval",
     "lasted": "0.2",
     "0.2": {
       "file": "wtm_test-0.2.js",
-      "md5": "41fed522b332dc147c91e34b1cce1dcd",
+      "md5": "14333f352529ae46f5d30649a72bb9ba",
       "compatible": "0.3.5"
     }
   },
@@ -52,10 +52,10 @@
     "version": "0.1",
     "0.1": {
       "file": "wtm_web-0.1.js",
-      "md5": "a6591d357af0f6d9cfb8ffc16333fe62",
+      "md5": "4a6d50eaab965819b7a424b32f1c2628",
       "compatible": "0.3.5"
     },
-    "author": "Alfredo Rom�n",
+    "author": "Alfredo Roman",
     "license": "ISC",
     "compatible": "0.3.5",
     "description": "Module list router stack",
@@ -65,17 +65,17 @@
     "version": "0.2",
     "0.1": {
       "file": "wtm_wtee-0.1.js",
-      "md5": "369e6b396068a7cc65011391c876b292",
+      "md5": "e1f2d9d670267d299db81670341fb845",
       "compatible": "0.3.5"
     },
-    "author": "Alfredo Rom�n",
+    "author": "Alfredo Roman",
     "license": "ISC",
     "compatible": "0.3.5",
     "description": "Module for EventEmitter simple gestion.",
     "lasted": "0.2",
     "0.2": {
       "file": "wtm_wtee-0.2.js",
-      "md5": "1077532ec74343ff98c83cde5313a22c",
+      "md5": "109949225ab36fa575162585844a7e52",
       "compatible": "0.3.5"
     }
   }

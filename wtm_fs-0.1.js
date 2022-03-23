@@ -3,7 +3,7 @@ const wfs = require('fs');
 const u   = require('util').format;
 
 const pkg = {
-    author      : 'Alfredo Román',
+    author      : 'Alfredo Roman',
     license     : 'ISC',
     version     : '0.1',
     compatible  : '0.3.5',

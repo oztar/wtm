@@ -3,7 +3,7 @@
 let interval;
 
 const pkg = {
-    author      : 'Alfredo Román',
+    author      : 'Alfredo Roman',
     license     : 'ISC',
     version     : '0.1',
     compatible  : '0.3.5',

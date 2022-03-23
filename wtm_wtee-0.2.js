@@ -6,7 +6,7 @@ let ee = {};
 let options = {};
 
 const pkg = {
-    author      : 'Alfredo Román',
+    author      : 'Alfredo Roman',
     license     : 'ISC',
     version     : '0.2',
     compatible  : '0.3.5',
