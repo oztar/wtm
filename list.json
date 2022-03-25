@@ -25,6 +25,18 @@
     "description": "Module for control internal memory or Objects",
     "lasted": "0.1"
   },
+  "npm": {
+    "version": "0.1",
+    "0.1": {
+      "file": "wtm_npm-0.1.js",
+      "md5": "7897d86823bb9865bd35b23aa0c2ccf9",
+      "compatible": "0.3.6"
+    },
+    "author": "Alfredo",
+    "description": "npm, module exec command npm in shell.",
+    "compatible": "0.3.6",
+    "lasted": "0.1"
+  },
   "test": {
     "version": "0.2",
     "0.0": {
