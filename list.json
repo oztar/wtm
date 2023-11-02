@@ -93,15 +93,21 @@
   },
   "swagger" : {
     "version": "0.1",
-    "0.1": {
+      "0.1": {
       "file": "wtm_swagger-0.1.js",
       "md5": "58f08656bd0834efa01852e6913483d3",
       "compatible": "0.3.5"
     },
+      '0.2': {
+	  file: 'wtm_swagger',
+	  md5: '7908cb03072341e6c5bed00d29cdf8a3',
+	  compatible: '0.6.0',
+	  tar: 'wtm_swagger.tar.gz'
+      },
     "author": "Alfredo Roman",
     "license": "ISC",
-    "compatible": "0.3.5",
+    "compatible": "0.6.0",
     "description": "Module for swagger for APIs ",
-    "lasted": "0.1"
+    "lasted": "0.2"
   }
 }
